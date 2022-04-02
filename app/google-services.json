@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "611340859362",
+    "project_id": "publisher-6b389",
+    "storage_bucket": "publisher-6b389.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:611340859362:android:30c50c353f9014fa30abbb",
+        "android_client_info": {
+          "package_name": "com.zoe.publisher"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "611340859362-ll900nbc62ktv224sn52k455mufnorla.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-nlEVaA0jBJDg3yI_LSb8XCS9aSOxHDs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "611340859362-ll900nbc62ktv224sn52k455mufnorla.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
