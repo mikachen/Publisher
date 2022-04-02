@@ -25,6 +25,7 @@ class FirstFragment : Fragment() {
 
         viewModel.articles.observe(viewLifecycleOwner) {
             adapter.submitList(it)
+            adapter.notifyDataSetChanged()
         }
 
         viewModel.refreshStatus.observe(viewLifecycleOwner)

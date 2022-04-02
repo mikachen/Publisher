@@ -29,6 +29,8 @@ class BlogViewModel : ViewModel() {
     }
 
     fun getAllArticles() {
+        artsList.clear()
+
         ref.orderBy("createdTime", Query.Direction.DESCENDING)
             .get()
             .addOnSuccessListener {
@@ -43,6 +45,7 @@ class BlogViewModel : ViewModel() {
                     )
                     artsList.add(article)
                 }
+                Log.d("SWIPE","$artsList")
                 _articles.value = artsList
             }
             .addOnFailureListener { exception ->

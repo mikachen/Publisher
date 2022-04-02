@@ -37,6 +37,7 @@
         android:layout_marginTop="8dp"
         android:hint="UserPassword"
         android:maxLines="1"
+        android:nextFocusForward="@+id/login_btn"
         android:singleLine="true"
         android:imeOptions="actionNext"
         android:importantForAutofill="no"
@@ -124,6 +125,7 @@
         android:maxLines="1"
         android:singleLine="true"
         android:imeOptions="actionNext"
+        android:nextFocusForward="@+id/register_btn"
         android:importantForAutofill="no"
         app:layout_constraintStart_toStartOf="@id/login_title"
         app:layout_constraintTop_toBottomOf="@id/register_user_id" />
